@@ -118,7 +118,6 @@ public class Order extends JFrame {
 				do {
 					String newTable=JOptionPane.showInputDialog(null, "Enter New Table Number");
 					if(!newTable.isEmpty()) {
-					if(Integer.parseInt(newTable)==JOptionPane.CANCEL_OPTION)
 					
 				try {
 					int newtab=Integer.parseInt(newTable);
